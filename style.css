@@ -1,9 +1,9 @@
 body{
-    background-color:white;
-    text-align:center;    
+    background-color: lightpink;
+    text-align:center;  
+    color:grey;  
 }
 h1{
-    color:black;
     font-size: 72px;
 }
 p{
