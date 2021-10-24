@@ -6,33 +6,35 @@
     </head>
     <body>
         <h1 id='title'>freeCodeCamp Survey Form</h1>
-        <p>Thank you for taking time to help us improve the platform</p>
+        <p id='h1'>Thank you for taking time to help us improve the platform</p>
         <form id="survey-form">
-        <label for='name' id='name-label'>Name</label>
-        <div class="inputs"><input id="name" type="text" placeholder='Enter your name'></div><br><br>
-        <label for='email' id='email-label'>Email</label>
-        <div class="inputs"><input id="email" type="text" placeholder='Enter your email' pattern=/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/'></div><br><br>
-        <label id="number" id='number-label'>Number</label>
-        <div class="inputs"><input id="number" type="text" placeholder='Enter your phone number' pattern=/^[0-9 min=7 max=11></div><br><br>
+        <label for='name' id='name-label'>Name:</label>
+        <input id="name" type="text" placeholder='Enter your name'><br><br>
+        <label for='email' id='email-label'>Email:</label>
+        <input id="email" type="text" placeholder='Enter your email' pattern=/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/'><br><br>
+        <label for="number" id='number-label'>Number:</label>
+        <input id="number" type="text" placeholder='Enter your phone number' pattern=/^[0-9' min=7 max=11><br><br>
         <select id="dropdown">
             <option value="country">Cameroon</option>
              <option value="country">Pakistan</option>
           </select>
           <p>Would you recommend Microverse to your friends and people around?</p>
-          <input id="name" type="radio">
+          <input id="1" type="radio">
           <label id="Definitely" for='radio'>Maybe</label><br><br>
-          <input id="name" type="radio">
+          <input id="1" type="radio">
           <label id="Definitely" for='radio'>Definitely</label><br><br>
-          <input id="name" type="radio">
+          <input id="1" type="radio">
           <label id="Definitely" for='radio'>Don't think so</label><br><br>
-          <input type='checkbox' id='1'>
-          <label for='1'>1</label><br>
+          <p>Check these boxes</p>
           <input type='checkbox' id='2'>
-          <label for='2'>2</label><br>
-          <input type='checkbox' id='3'>
-          <label for='3'>3</label><br>
+          <label for='2'>Are you a programmer?</label><br><br>
+          <input type='checkbox' id='2'>
+          <label for='2'>Do you have any job</label><br><br>
+          <input type='checkbox' id='2'>
+          <label for='3'>Is the job remote</label><br><br>
+          <p>Anything you wanna add?</p>
           <textarea name='desc' id='a' cols=30 rows=10></textarea>
-          <label for="a"></label><br>
+          <br><br>
           <input type="submit" id='submit'>
           </form>
       </body>
