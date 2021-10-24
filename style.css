@@ -9,3 +9,11 @@ h1{
 p{
     font-size:32px;
 }
+
+#survey-form{
+    background-color: aliceblue;
+}
+#name{
+    width: 30%;
+    background-color: white;
+}
