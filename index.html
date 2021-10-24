@@ -8,10 +8,13 @@
         <h1 id='title'>freeCodeCamp Survey Form</h1>
         <p>Thank you for taking time to help us improve the platform</p>
         <form id="survey-form">
-            <label for='name'>Name</label>
+        <label for='name'>Name</label>
         <input id="name" type="text"><br><br>
         <label for='email'>Email</label>
-        <input id="email" type="text" pattern='/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/'>
+        <input id="email" type="text" pattern=/^[a-zA-Z0-9.! #$%&'*+/=? ^_`{|}~-]+@[a-zA-Z0-9-]+(?:\. [a-zA-Z0-9-]+)*$/'><br><br>
+        <label id="number">Number</label>
+        <input id="number" type="number" pattern=/^[0-9'>
+        
         </form>
     </body>
 </html>
