@@ -1,77 +1,80 @@
-body{
-   background-color: lightpink;
-   align-items: center;
+body {
+  background-color: lightpink;
+  align-items: center;
 }
 
-#h1{
-    text-align: center;
-    color: black;
-}
-#survey-form{
-    background-color: aliceblue;
-    max-width: 50%;
-    padding: 60px;
-    margin-left:300px;
-
-}
-#name{
-    padding:10px;
-    margin-left:10px;
-    width: 400px;
-    border-radius: 5px;
-    border: solid 1px;
+#h1 {
+  text-align: center;
+  color: black;
 }
 
-#email{
-    padding:10px;
-    margin-left:10px;
-    width: 400px;
-    border-radius: 5px;
-    border: solid 1px;
-}
-#number{
-    padding:10px;
-    margin-left:10px;
-    width: 400px;
-    border-radius: 5px;
-    border:solid 1px;
-}
-#dropdown{
-    padding:10px;
-    margin-left:10px;
-    width: 100px;
-    border-radius: 5px;
-    border:solid 1px;
+#survey-form {
+  background-color: aliceblue;
+  max-width: 50%;
+  padding: 60px;
+  margin-left: 300px;
 }
 
-input{
-    align-items: center;
+#name {
+  padding: 10px;
+  margin-left: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: solid 1px;
 }
 
-
-
-
-p{
-font-size:24px;
-font-weight: bold;
-color: grey;
+#email {
+  padding: 10px;
+  margin-left: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: solid 1px;
 }
 
-#title{
-    color: black;
-    text-align: center;
-    font-size: 32px;
+#number {
+  padding: 10px;
+  margin-left: 10px;
+  width: 400px;
+  border-radius: 5px;
+  border: solid 1px;
 }
-#submit{
-    background-color: blue;
-    margin: 10px;
-    padding: 10px;
-    color: white;
-    border-radius: 5px;
+
+#dropdown {
+  padding: 10px;
+  margin-left: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: solid 1px;
 }
-#in{
-    font-size: 18px;
+
+input {
+  align-items: center;
 }
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+  color: grey;
+}
+
+#title {
+  color: black;
+  text-align: center;
+  font-size: 32px;
+}
+
+#submit {
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+}
+
+#in {
+  font-size: 18px;
+}
+
 
 
 
