@@ -49,17 +49,26 @@ input{
 }
 
 
+
+
+
 p{
 font-size:24px;
 font-weight: bold;
 color: grey;
 }
 
+
+
 #title{
     color: black;
     text-align: center;
     font-size: 32px;
 }
+
+
+
+
 #submit{
     background-color: blue;
     margin: 10px;
@@ -67,6 +76,9 @@ color: grey;
     color: white;
     border-radius: 5px;
 }
+
+
+
 #in{
     font-size: 18px;
 }
